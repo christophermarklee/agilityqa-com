@@ -146,6 +146,9 @@ h2 { font-size: var(--step-3); font-weight: 750; font-stretch: 108%; letter-spac
 .creds { display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 2rem 3rem; margin: 2rem 0 0; }
 .creds dt { font: 700 var(--step-1)/1.25 var(--display); }
 .creds dd { margin: 0.4rem 0 0; color: var(--slate); }
+.creds .badge { position: relative; padding-left: 7.25rem; min-height: 6rem; }
+.creds .badge-img { position: absolute; left: 0; top: 0; }
+.creds .badge-img img { display: block; width: 6rem; height: 6rem; }
 
 /* Contact */
 .contact { background: var(--ink); color: #fff; }
